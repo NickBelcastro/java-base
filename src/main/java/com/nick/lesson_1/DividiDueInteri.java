@@ -2,7 +2,7 @@ package com.nick.lesson_1;
 
 import java.util.Scanner;
 
-public class MoltiplicaDueInteri {
+public class DividiDueInteri {
     public static void main(String args[]) {
         System.out.println("Ciao, so moltiplicare due numeri interi.");
         Scanner keyboardScanner = new Scanner(System.in);
@@ -13,6 +13,6 @@ public class MoltiplicaDueInteri {
         System.out.println("Scrivi il secondo valore e premi invio");
         int input2 = keyboardScanner.nextInt();
 
-        System.out.println("Il risultato è: " + input1 * input2);
+        System.out.println("Il risultato è: " + input1 / input2);
     }
 }

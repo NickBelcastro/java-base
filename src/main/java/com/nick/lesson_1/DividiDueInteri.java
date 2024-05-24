@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DividiDueInteri {
     public static void main(String args[]) {
-        System.out.println("Ciao, so moltiplicare due numeri interi.");
+        System.out.println("Ciao, so dividere due numeri interi.");
         Scanner keyboardScanner = new Scanner(System.in);
 
         System.out.println("Scrivi il primo valore e premi invio");
